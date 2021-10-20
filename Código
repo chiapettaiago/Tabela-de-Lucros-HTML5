@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tabela de Lucros</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+   <table>
+    <caption><strong>Tabela para organização</strong></caption>
+ 
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: #c4302b">
+        <col span="2" style="background-color: #e2725b">
+    </colgroup>
+    
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Youtube</th>
+            <th colspan="2" scope="colgroup">Instagram</th>
+        </tr>
+        <tr>
+            <th scope="col">Monetização</th>
+            <th scope="col">Parcerias</th>
+            <th scope="col">Monetização</th>
+            <th scope="col">Parcerias</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Lucro Mensal</th>
+            <td>$2.41K</td>
+            <td>R$1.5K</td>
+            <td>$1.7K</td>
+            <td>R$1.2K</td>
+        </tr>
+        <tr>
+            <th scope="row">Lucro Semanal</th>
+            <td>1.76K</td>
+            <td>R$375</td>
+            <td>$425</td>
+            <td>R$300</td>
+        </tr>
+    </tbody>
+</table>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
