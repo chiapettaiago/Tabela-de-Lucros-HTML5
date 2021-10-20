@@ -6,8 +6,8 @@
     <title>Tabela de Lucros</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-
-   <table>
+  <body>
+     <table>
     <caption><strong>Tabela para organização</strong></caption>
  
     <colgroup>
@@ -46,7 +46,6 @@
         </tr>
     </tbody>
 </table>
-  <body>
     <script src="script.js"></script>
   </body>
 </html>
